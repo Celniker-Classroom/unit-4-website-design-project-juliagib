@@ -12,3 +12,32 @@
     margin:15px;
     border-color: black;
 }
+.zg{
+    margin: 70px;
+    border-radius: 50px;
+    width: 700px;
+    height: 400px
+}
+.sn{
+    margin: 70px;
+    float: right;
+    border-radius: 50px;
+    width: 700px;
+    height: 400px
+}
+
+.top {
+    flex-direction: row;
+}
+
+.top img {
+    width: 40%;
+    height: 300px;
+    object-fit: cover;
+    margin: 0;
+}
+
+.container {
+    padding-left: 17%;
+    width: 80%;
+}
