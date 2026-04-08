@@ -3,14 +3,11 @@ body{
     margin: 0px;
     background-color: rgb(207, 207, 230)
 }
-.NZimg1{
-    float: left;
-    margin: 35px;
-    border-width: 4px;
-    border-color: rgb(28, 28, 90);
-    border-style: solid;
-    border-radius: 10px;
+
+div{
+    margin-bottom: 50px;
 }
+
 
 .homebutton {
     height: 20px;
@@ -61,8 +58,13 @@ body{
 }
 h1 {
     text-align: center;
-    margin-top: 15px;
     margin-bottom: 0px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 .navbar ul{
     list-style-type: none;
@@ -86,3 +88,47 @@ h1 {
     float: left;
     margin: 0px;
 }
+h4 {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.NZlist {
+    font-size: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 2;
+
+}
+.NZh4{
+    clear: left;
+    margin-top: 50px;
+}
+.NZdiv{
+    margin: 50px;
+    clear: left;
+    display: block;
+}
+.NZimg2{
+    width: 35%;
+    float: right;
+    margin: 50px;
+}
+
+.NZimg1{
+    float: left;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 25px;
+    border-width: 4px;
+    border-color: rgb(28, 28, 90);
+    border-style: solid;
+    border-radius: 10px;
+    width: 40%;
+}
+
+.NZtext{
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
