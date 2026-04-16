@@ -29,6 +29,7 @@ div{
 
 .top {
     flex-direction: row;
+    
 }
 
 .top img {
@@ -112,15 +113,15 @@ h4 {
 }
 .NZh4{
     clear: left;
-    margin-top: 50px;
+    margin-top: 120px;
 }
 .NZdiv{
-    margin: 50px;
+    margin-left: 40px;
     clear: left;
     display: flex;
 }
 .NZimg2{
-    width: 50%;
+    width: 50vw;
     border-radius: 20px;
     border-width: 4px;
     border-color: rgb(28, 28, 90);
