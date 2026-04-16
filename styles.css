@@ -138,6 +138,7 @@ h4 {
     border-style: solid;
     border-radius: 10px;
     width: 40%;
+    height: 20%;
 }
 
 .NZtext{
@@ -146,4 +147,68 @@ h4 {
     padding-left: 30px;
     padding-right: 30px;
     font-size: 18px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    float: right;
+
+}
+
+.fa {
+  cursor: pointer;
+  user-select: none;
+  float: left;
+  margin-left: 60px;
+  margin-bottom: 15px;
+}
+
+.fa:hover {
+  color: rgb(157, 103, 8);
+}
+
+* {box-sizing: border-box;}
+
+.img-comp-container {
+  position: relative;
+  height: 200px; /*should be the same height as the images*/
+  width: 600px; /* or smaller if needed */
+  flex-shrink: 0;
+}
+.img-comp-container img{
+    float: left;
+    margin-right: 30px;
+    margin-left: 30px;
+    border-width: 4px;
+    border-color: rgb(28, 28, 90);
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.img-comp-img {
+  position: absolute;
+  width: auto;
+  height: auto;
+  overflow:hidden;
+}
+
+.img-comp-img img {
+  display:block;
+  vertical-align:middle;
+}
+
+.img-comp-slider {
+  position: absolute;
+  z-index:9;
+  cursor: ew-resize;
+  /*set the appearance of the slider:*/
+  width: 40px;
+  height: 40px;
+  background-color: #2196F3;
+  opacity: 0.7;
+  border-radius: 50%;
+}
+
+.NZwrapper{
+    float: left;
+    display: flex;
+    align-items: flex-start;
+    gap: 30px; /* cleaner than margin */
+}
