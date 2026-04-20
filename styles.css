@@ -267,3 +267,50 @@ h6{
     font-size: 14px;
     font-style: italic;
 }
+#norwayDiv {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* This pushes the first item to the left and the last to the right */
+    justify-content: space-between; 
+    align-items: center; /* Optional: keeps them vertically centered with each other */
+}
+#NWtext{
+    text-align: right;
+    flex: 0 1 45%;
+    margin-right: 5vw;
+    font-size: 21px;
+    color: whitesmoke;
+    background-color: rgb(22, 16, 49);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 26px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+
+}
+#nwImg1{
+    flex: 0 1 45%; 
+}
+#NWtext2 {
+    flex: 0 1 45%; /* Change from 100% to 45% */
+    margin-top: 20px;
+    /* Keeping your other styles... */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    color: whitesmoke;
+    background-color: rgb(22, 16, 49);
+    margin-left: 32px;
+    padding: 26px;
+    border-radius: 15px;
+    text-shadow: 0 4px 10px rgb(255, 255, 255, 0.5);
+}
+#nwImg2 {
+    flex: 0 1 44%;
+    margin-top: 20px;
+    margin-right: 50px;
+    width: 40%;
+    border-radius: 20px;
+    border-width: 4px;
+    border-color: rgb(28, 28, 90);
+    border-style: solid;
+}
