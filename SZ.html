@@ -1,28 +1,48 @@
 <!DOCTYPE html>
 <html>
-    <head>
+
+<head>
     <title>My CSF Sub Page 2</title>
-    <link rel = "stylesheet" href = "styles.css">
-    </head>
-    <body>
-        <nav class = "navbar">
-            <ul>
-                <li><a id = homepage href = "index.html"><img class = "homebutton" src = "image/home.svg" alt = "homebutton" style = "width:40px"></a></li>
-                <li><a href = "NZ.html">New Zealand</a></li>
-                <li><a href = "SZ.html">Switzerland</a></li>
-                <li><a href = "GR.html">Greece</a></li>
-                <li><a href = "NW.html">Norway</a></li>
-            </ul>
-        </nav>
-        <h1>Switzerland</h1>
-        <br>
-        <img src = "image/Alps-Switzerland.webp" alt = "Switzerland Alps" style = "width: 500px">
-        <p>Switzerland is a small, landlocked country in the heart of Europe, famous for its stunning alpine scenery, lakes, and villages. It has four national languages which are German, French, Italian, and Romansh. They have a long tradition of neutrality in international conflicts, which reflects their laid back attitude. Switzerland is known for its high quality of life and delicious chocolate and cheese. When it comes to jobs, they are very strong in banking and the finance sector. People in Switzerland love skiing, hiking, and snowboarding. Their snow and mountains attract visitors from all over the world to see and enjoy. </p>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a id=homepage href="index.html"><img class="homebutton" src="image/home.svg" alt="homebutton"
+                        style="width:40px"></a></li>
+            <li><a href="NZ.html">New Zealand</a></li>
+            <li><a href="SZ.html">Switzerland</a></li>
+            <li><a href="GR.html">Greece</a></li>
+            <li><a href="NW.html">Norway</a></li>
+        </ul>
+    </nav>
+    <h1>Switzerland</h1>
+    <br>
+    <img id = "imgSwiss1" src="image/Alps-Switzerland.webp" alt="Switzerland Alps" style="width: 500px">
+    <div id = "swissDiv">
+        <p>Switzerland is a small, landlocked country in the heart of Europe, famous for its stunning alpine scenery,
+            lakes, and villages. It has four national languages which are German, French, Italian, and Romansh. They
+            have a long tradition of neutrality in international conflicts, which reflects their laid back attitude.
+            Switzerland is known for its high quality of life and delicious chocolate and cheese. When it comes to jobs,
+            they are very strong in banking and the finance sector. People in Switzerland love skiing, hiking, and
+            snowboarding. Their snow and mountains attract visitors from all over the world to see and enjoy. </p>
         <h2>History of Switzerland</h2>
-        <p>history...</p>
-        <img src = "image/Switzerland river mountain.jpeg" alt = "Switzerland River" style = "width: 540px">
-        <br>
-        <input type = "button" onclick = "alert('Switzerland has over 1,500 rivers!')" value = "Click here for a fun fact about Switzerland">
-        <script src = "script.js"></script>
-    </body>
+        <p>Switzerland first began as a loose alliance of small Alpine communities and cities, then slowly expanded into
+            the Old Swiss Confederacy. Only much later did it become the modern federal state we know today. It was
+            technically founded in 1291, but formed as the the modern nation in 1848. In 1291, rural communities of Uri,
+            Schwyz, and Unterwalden made alliances for mutual defense. Over the next few centuries, more towns and
+            regions joined this defensive league which created the Old Swiss Confederacy. However, in 1798, French
+            forces invaded and imposed the Helvetic Republic which was a more centralized state that replaced the old
+            confederate structure. It lasted only until 1803, but was the starting point for countless important ideas
+            like citizenship, legal equality, and a unified framework. Finally, in 1848, Switzerland adopted a federal
+            constitution thanks to a war in 1847. This is the same system they use today. </p>
+    </div>
+    <img id = "imgSwiss2" src="image/Switzerland river mountain.jpeg" alt="Switzerland River" style="width: 540px">
+    <br>
+    <input id = "funFactBtn" type="button" onclick="alert('Switzerland has over 1,500 rivers!')"
+        value="Click here for a fun fact about Switzerland">
+    <script src="script.js"></script>
+</body>
+
 </html>
